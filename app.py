@@ -13,7 +13,7 @@ st.set_page_config(page_title="Resume Job Role Predictor", layout="centered")
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("https://raw.githubusercontent.com/Saranya-Susarla/resume-predictor/main/white-painted-concrete-wall-888895_640.jpg");
+        background-image: url("https://raw.githubusercontent.com/Saranya-Susarla/resume-predictor/main/kiwihug-3gifzboyZk0-unsplash.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
