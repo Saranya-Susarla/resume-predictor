@@ -103,4 +103,5 @@ if uploaded_file is not None:
     prediction = model.predict(vectorized)
     predicted_role = le.inverse_transform(prediction)[0]
 
-    st.markdown(f'<div class="result-box">🔍 Predicted Job Role: <br> <span style="color:#00FFAA;">{predicted_role}</span></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="result-box">🔍 Predicted Job Role: <br> <span style="color:#FFFFFF;">{predicted_role}</span></div>', unsafe_allow_html=True)
+
